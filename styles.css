@@ -15,9 +15,27 @@ button {
   color: black;
 }
 
+button {
+  background-color: #3882f6;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: lightblue; /* Green */
+}
+
 header {
   background-color: #1f2937;
-  padding: 30px 10px;
+  padding: 30px 50px;
   color: aliceblue;
 }
 
@@ -39,9 +57,103 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 0px 0px 5rem 0px;
 }
 
 h1 {
   margin-right: auto;
   padding-left: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 38px;
+  padding-bottom: 1px;
+}
+.section-one {
+  display: inline;
+  background-color: #1f2937;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.gifts {
+  max-width: 200%;
+  max-height: 200%;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+.text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.section-two img {
+  border-radius: 30px 30px 30px 30px;
+}
+
+section {
+  background-color: lightgray;
+  padding: 80px;
+}
+
+section p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-name {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin: 10px;
+}
+
+.background {
+  background-color: white;
+}
+
+.section-four {
+  padding: 80px;
+  display: inline-block;
+}
+
+.sign-up-two {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.text-two {
+  margin: 10px;
+  padding-right: 80px;
+}
+
+. .action-signup {
+  margin: auto;
+  border: rgb(213, 228, 240);
 }
