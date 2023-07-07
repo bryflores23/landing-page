@@ -1,6 +1,6 @@
 * {
   text-align: center;
-  font-family: roboto, sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -17,8 +17,10 @@ button {
 
 button {
   background-color: #3882f6;
-  border: none;
-  color: black;
+  border: 2px solid black;
+  border-color: #e7e7e7;
+  color: white;
+
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -30,13 +32,17 @@ button {
 }
 
 button:hover {
-  background-color: lightblue; /* Green */
+  background-color: lightblue;
 }
 
 header {
   background-color: #1f2937;
   padding: 30px 50px;
   color: aliceblue;
+}
+
+hr {
+  border-color: white;
 }
 
 li {
@@ -144,8 +150,10 @@ section p {
   justify-content: flex-end;
   align-items: center;
   background-color: #3882f6;
+  border-radius: 20px;
+  margin: 30px;
   padding: 30px;
-  border-radius: 10px;
+  color: white;
 }
 
 .text-two {
@@ -155,5 +163,26 @@ section p {
 
 . .action-signup {
   margin: auto;
-  border: rgb(213, 228, 240);
+}
+
+footer {
+  background-color: #1f2937;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.final-section {
+  display: inline;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
