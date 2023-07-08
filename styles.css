@@ -15,7 +15,7 @@ button {
   color: black;
 }
 
-button {
+button.signup-button {
   background-color: #3882f6;
   border: 2px solid black;
   border-color: #e7e7e7;
@@ -28,7 +28,6 @@ button {
   font-size: 16px;
   border-radius: 12px;
   transition-duration: 0.4s;
-  margin-top: 10px;
 }
 
 button:hover {
@@ -76,13 +75,9 @@ h2 {
   font-size: 38px;
   padding-bottom: 1px;
 }
-.section-one {
-  display: inline;
-  background-color: #1f2937;
-}
-
-.sign-up {
+.hero-section {
   display: flex;
+  background-color: #1f2937;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
@@ -136,24 +131,35 @@ section p {
   margin: 10px;
 }
 
-.background {
-  background-color: white;
+.call-to-action-section {
+  padding: 8rem 16rem;
 }
 
-.section-four {
-  padding: 80px;
-  display: inline-block;
-}
-
-.sign-up-two {
+.call-to-action-box-outer {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   background-color: #3882f6;
-  border-radius: 20px;
-  margin: 30px;
-  padding: 30px;
+  border-radius: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.call-to-action-box-inner-left {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
   color: white;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.call-to-action-box-inner-right {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
 }
 
 .text-two {
@@ -161,7 +167,7 @@ section p {
   padding-right: 80px;
 }
 
-. .action-signup {
+.action-signup {
   margin: auto;
 }
 
